@@ -98,9 +98,6 @@ Step 2. Add the dependency
 <h5>Add this into your styles.xml</h5>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
         <item name="mukeshOtpStyle">@style/OtpWidget.OtpView</item>
     </style>
 
