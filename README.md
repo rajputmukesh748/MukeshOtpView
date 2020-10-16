@@ -6,7 +6,7 @@
 <p>
   Hello Friends
   </br>
-  This is a OTP View dependency for android project. Simply you can add this library in your project and design accroding to your requiremens.
+  This is a OTP View dependency for android project. Simply you can add this library in your project and design accroding to your requirements.
 </p>
 
 
