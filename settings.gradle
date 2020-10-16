@@ -1,0 +1,3 @@
+include ':MukeshOtpView'
+include ':app'
+rootProject.name = "OTP View"

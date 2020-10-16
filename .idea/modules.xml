@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MukeshOtpView/MukeshOtpView.iml" filepath="$PROJECT_DIR$/.idea/modules/MukeshOtpView/MukeshOtpView.iml" group="OTP View/MukeshOtpView" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OTP_View.iml" filepath="$PROJECT_DIR$/.idea/modules/OTP_View.iml" group="OTP_View" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="OTP View/app" />
+    </modules>
+  </component>
+</project>

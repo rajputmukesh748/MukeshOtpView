@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Line Otp"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <com.mukesh.mukeshotpview.mukeshOtpView.MukeshOtpView
+        android:id="@+id/simpleOtpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:text="124356"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:hideLineWhenFilled="false"
+        app:itemCount="6"
+        app:lineColor="@android:color/holo_red_light"
+        app:state_filled="true"
+        app:viewType="line"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Build Rectangle Shape"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+    <com.mukesh.mukeshotpview.mukeshOtpView.MukeshOtpView
+        android:id="@+id/inBuildRectangleOtpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:text="124356"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:hideLineWhenFilled="false"
+        app:itemCount="6"
+        app:lineColor="@android:color/holo_red_light"
+        app:state_filled="true"
+        app:viewType="rectangle"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Drawable Shape"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+    <com.mukesh.mukeshotpview.mukeshOtpView.MukeshOtpView
+        android:id="@+id/customOtpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:text="124356"
+        android:itemBackground="@drawable/gray_round_corners"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:hideLineWhenFilled="false"
+        app:itemCount="6"
+        app:lineColor="@color/colorAccent"
+        app:state_filled="true"
+        app:viewType="none"
+        />
+
+</LinearLayout>
