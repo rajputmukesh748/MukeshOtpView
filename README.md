@@ -1,5 +1,4 @@
-# MukeshOtpView
-
+# MukeshOtpView ![](https://jitpack.io/v/rajputmukesh748/MukeshOtpView.svg)
 
 <h3> Mukesh Rajput </h3>
 </br>
@@ -7,17 +6,38 @@
 <p>
   Hello Friends
   </br>
-  This is a OTP View dependency for android project. Simply you can add this library into your project and design accroding to your requiremens.
+  This is a OTP View dependency for android project. Simply you can add this library in your project and design accroding to your requiremens.
 </p>
 
-<h5>How to integrate into your app?</h5>
+
+<h5>Output of all OTP views</h5>
+<p>In a image shows all OTP views and you can check a example code from source code. Simply you can dawnload a github project or open the Main Activity class and xml file.</p>
+
+![MukeshOtpView](https://github.com/rajputmukesh748/MukeshOtpView/blob/main/otp%20example%20output.png)
 
 
+
+<h3>How to integrate into your app?</h3>
+&nbsp;&nbsp;Step 1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
+
+    allprojects {
+		  repositories {
+		  	...
+		  	maven { url 'https://jitpack.io' }
+		  }
+	  }
+  
+ 
+Step 2. Add the dependency
+
+    dependencies {
+	        implementation 'com.github.rajputmukesh748:MukeshOtpView:1.0.0'
+	  }
 
 
 <h4>Source Code</h4>
 
-<p>Simple OTP View</p>
+<h5>Simple OTP View</h5>
 
     <com.mukesh.mukeshotpview.mukeshOtpView.MukeshOtpView
         android:id="@+id/simpleOtpView"
@@ -36,7 +56,7 @@
         />
 
 
-<p>Inbuild Rectangle OTP View</p>
+<h5>Inbuild Rectangle OTP View</h5>
 
     <com.mukesh.mukeshotpview.mukeshOtpView.MukeshOtpView
         android:id="@+id/inBuildRectangleOtpView"
@@ -55,7 +75,7 @@
         />
 
 
-<p>Custom Design OTP View</p>
+<h5>Custom Design OTP View</h5>
 
     <com.mukesh.mukeshotpview.mukeshOtpView.MukeshOtpView
         android:id="@+id/customOtpView"
@@ -104,9 +124,4 @@
             }
         })
 
-
-<h5>Output of all OTP views</h5>
-<p>In a image shows all OTP views and you can check a example code from source code. Simply you can dawnload a github project or open the Main Activity class and xml file.</p>
-
-![MukeshOtpView](https://github.com/rajputmukesh748/MukeshOtpView/blob/main/otp%20example%20output.png)
 
