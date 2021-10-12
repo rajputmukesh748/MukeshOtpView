@@ -12,6 +12,12 @@
 #   public *;
 #}
 
+-keep class com.mukesh.mukeshotpview.mukeshOtpView.MukeshOtpView { **; }
+
+-keep class com.mukesh.mukeshotpview.defaultMovementMethod.MukeshOtpMovementMethod { **; }
+
+-keep interface com.mukesh.mukeshotpview.completeListener.MukeshOtpCompleteListener { **; }
+
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable
