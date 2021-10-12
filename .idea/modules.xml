@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MukeshOtpView/MukeshOtpView.iml" filepath="$PROJECT_DIR$/.idea/modules/MukeshOtpView/MukeshOtpView.iml" group="OTP View/MukeshOtpView" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OTP_View.iml" filepath="$PROJECT_DIR$/.idea/modules/OTP_View.iml" group="OTP_View" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="OTP View/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OTP_View.iml" filepath="$PROJECT_DIR$/.idea/modules/OTP_View.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.iml" filepath="$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OTP_View.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OTP_View.app.iml" />
     </modules>
   </component>
 </project>

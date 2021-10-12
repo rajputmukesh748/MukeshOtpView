@@ -1,5 +1,7 @@
 package com.mukesh.mukeshotpview.completeListener
 
-interface MukeshOtpCompleteListener {
-    fun otpCompleteListener(otp: String?)
+import android.view.View
+
+fun interface MukeshOtpCompleteListener {
+    fun otpCompleteListener(view : View, otp: String?)
 }

@@ -40,7 +40,7 @@ open class MukeshOtpView @JvmOverloads constructor(
     private var mukeshOtpViewItemRadius: Int
     private var mukeshOtpViewItemSpacing: Int
     private val paint: Paint
-    private val animatorTextPaint: TextPaint? = TextPaint()
+    private val animatorTextPaint: TextPaint = TextPaint()
 
 
     /**
@@ -86,7 +86,7 @@ open class MukeshOtpView @JvmOverloads constructor(
 
     override fun setTypeface(tf: Typeface?) {
         super.setTypeface(tf)
-        animatorTextPaint?.set(getPaint())
+        animatorTextPaint.set(getPaint())
     }
 
     private fun setMaxLength(maxLength: Int) {
@@ -100,7 +100,7 @@ open class MukeshOtpView @JvmOverloads constructor(
         defaultAddAnimator!!.addUpdateListener { animation ->
             val scale = animation.animatedValue as Float
             val alpha = (255 * scale).toInt()
-            animatorTextPaint!!.textSize = textSize * scale
+            animatorTextPaint.textSize = textSize * scale
             animatorTextPaint.alpha = alpha
             postInvalidate()
         }
@@ -150,7 +150,7 @@ open class MukeshOtpView @JvmOverloads constructor(
             moveSelectionToEnd()
         }
         if (text.length == mukeshOtpViewItemCount && mukeshOtpCompletionListener != null) {
-            mukeshOtpCompletionListener!!.otpCompleteListener(text.toString())
+            mukeshOtpCompletionListener!!.otpCompleteListener(rootView, text.toString())
         }
         makeBlink()
         if (isAnimationEnable) {
@@ -282,7 +282,7 @@ open class MukeshOtpView @JvmOverloads constructor(
             (isNumberInputType(inputType) ||
                     isPasswordInputType(inputType))
         ) {
-            drawMaskingText(canvas, i, Character.toString(maskingChar!![0]))
+            drawMaskingText(canvas, i, maskingChar!![0].toString())
         } else if (isPasswordInputType(inputType)) {
             drawCircle(canvas, i)
         } else {
@@ -472,14 +472,13 @@ open class MukeshOtpView @JvmOverloads constructor(
         paint!!.color = currentTextColor
         if (rtlTextDirection) {
             val reversedPosition = mukeshOtpViewItemCount - i
-            val reversedCharPosition: Int
-            reversedCharPosition = if (text == null) {
+            val reversedCharPosition: Int = if (text == null) {
                 reversedPosition
             } else {
                 reversedPosition - text!!.length
             }
             if (reversedCharPosition <= 0 && text != null) {
-                drawTextAtBox(canvas, paint, text, Math.abs(reversedCharPosition))
+                drawTextAtBox(canvas, paint, text, abs(reversedCharPosition))
             }
         } else if (text != null) {
             drawTextAtBox(canvas, paint, text, i)
@@ -495,8 +494,7 @@ open class MukeshOtpView @JvmOverloads constructor(
         paint!!.color = currentTextColor
         if (rtlTextDirection) {
             val reversedPosition = mukeshOtpViewItemCount - i
-            val reversedCharPosition: Int
-            reversedCharPosition = if (text == null) {
+            val reversedCharPosition: Int = if (text == null) {
                 reversedPosition
             } else {
                 reversedPosition - text!!.length
@@ -566,7 +564,7 @@ open class MukeshOtpView @JvmOverloads constructor(
 
     private fun getPaintByIndex(i: Int): Paint? {
         return if (text != null && isAnimationEnable && i == text!!.length - 1) {
-            animatorTextPaint!!.color = getPaint().color
+            animatorTextPaint.color = getPaint().color
             animatorTextPaint
         } else {
             getPaint()
@@ -1055,7 +1053,7 @@ open class MukeshOtpView @JvmOverloads constructor(
         val res = resources
         paint = Paint(Paint.ANTI_ALIAS_FLAG)
         paint.style = Paint.Style.STROKE
-        animatorTextPaint!!.set(getPaint())
+        animatorTextPaint.set(getPaint())
         val theme = context.theme
         val typedArray =
             theme.obtainStyledAttributes(attrs, R.styleable.MukeshOtpView, defStyleAttr, 0)
