@@ -3,15 +3,17 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7059331bb0399e507b72ada78290c28b/jetified-core-1.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3a8607876260cae6cf9af286bed37b63/transformed/jetified-core-1.4.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1c07181af4d155e30bcf0c4f60b817c8/transformed/jetified-core-1.4.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1c07181af4d155e30bcf0c4f60b817c8/transformed/jetified-core-1.4.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1c07181af4d155e30bcf0c4f60b817c8/transformed/jetified-core-1.4.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-3/1c07181af4d155e30bcf0c4f60b817c8/transformed/jetified-core-1.4.0/res" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-3/2912a806f8acddd81908b4f2a6abf4d0/transformed/jetified-core-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-3/2912a806f8acddd81908b4f2a6abf4d0/transformed/jetified-core-1.4.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-3/2912a806f8acddd81908b4f2a6abf4d0/transformed/jetified-core-1.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.4.0/96b4d161def059d92989a352500d05d215c33d5e/core-1.4.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/androidx.test/core/1.4.0/96b4d161def059d92989a352500d05d215c33d5e/core-1.4.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.4.0/2ba6b5cb5392cc99bdc6fb1f188c95497358fb62/core-1.4.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/androidx.test/core/1.4.0/2ba6b5cb5392cc99bdc6fb1f188c95497358fb62/core-1.4.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
