@@ -4,7 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/OTP_View.iml" filepath="$PROJECT_DIR$/.idea/modules/OTP_View.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.iml" filepath="$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/MukeshOtpView/OTP_View.MukeshOtpView.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OTP_View.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OTP_View.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OTP_View.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OTP_View.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OTP_View.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OTP_View.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OTP_View.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OTP_View.app.unitTest.iml" />
     </modules>
   </component>
 </project>
